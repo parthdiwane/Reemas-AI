@@ -4,3 +4,5 @@ Google Account:
 Lynx: 
 - User: geminiapiadvancedcs@gmail.com
 - Password: Gemini!23
+OCR API Key:
+- key: AIzaSyAI4GMcxKupaZ9cZRHm52mlBq_UYX3CVWg
