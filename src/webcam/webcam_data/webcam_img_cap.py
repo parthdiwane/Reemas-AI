@@ -10,7 +10,7 @@ list_of_num.append(0)
 while(True):
     ret, frame = webcam.read()
     
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) 
+    # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) 
     
     if cv2.waitKey(1) & 0xFF == ord('s'):
         num = len(list_of_num) - 1
@@ -19,7 +19,7 @@ while(True):
         img_cnt += 1
         list_of_num.append(img_cnt)
     
-    cv2.imshow('webcam', gray)
+    cv2.imshow('webcam', frame)
     
     # allow user to press "q" to stop
     if cv2.waitKey(1) & 0xFF == ord('q'):
