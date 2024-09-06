@@ -1,15 +1,10 @@
 from google.cloud import vision
+import os
+
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '814c4dbd41c403783ba8f7e8c0b221d3b785db24.json'
 
 def detect_text(path):
-    """Detects text in the given image.
-
-    Args:
-      path: The path to the image file.
-
-    Returns:
-      A list of detected text annotations.
-    """
-
+    """Detects text in the given image."""
     client = vision.ImageAnnotatorClient()
 
     with open(path, 'rb') as image_file:
@@ -19,13 +14,10 @@ def detect_text(path):
 
     response = client.text_detection(image=image)
     texts = response.text_annotations
+    if len(texts) > 0:
+        print(texts[0].description)
+    else:
+        print('No text detected.')
 
-
-    return texts
-
-# Replace 'path/to/your/image.jpg' with the actual path to your image
-path = 'image.png'
-texts = detect_text(path)
-
-for text in texts:
-    print(text.description)
+image_path = 'image.png'
+detect_text(image_path)
