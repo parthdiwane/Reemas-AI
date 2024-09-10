@@ -29,7 +29,7 @@ print( 'verifying: ' + detect_text(img_path))
 
 print('\n')
 responce = chat.send_message("context: " + context + " verify the following fact: " + txt_from_img + " . State only whether if the fact is true, false, unsure, or not enough information provided. Do not explain why the fact is true or false. Please keep you responces limited to the four options gi")
-print( + "Output: " +responce.text)
+print("Output: " +responce.text)
 
 
 
