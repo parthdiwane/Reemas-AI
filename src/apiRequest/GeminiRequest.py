@@ -19,7 +19,7 @@ chat = model.start_chat(
     ]
 )
 
-img_path = 'src/assets/imgs/false.png'
+img_path = 'src/assets/imgs/v1.png'
 
 print(Fore.BLUE + 'hello, please state the name of the person talking and any other nessassry context: ')
 context = input()
