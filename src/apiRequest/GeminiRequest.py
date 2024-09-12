@@ -16,6 +16,7 @@ chat = model.start_chat(
         {"role": "user", "parts": "A client that is asking a question about whether or not something a certain politcal figure is saying is true or not"},
         {"role":"model", "parts": "You are a system that is tasked to verfiy if what the poltical figure is saying is true or false."},
         {"role":"model", "parts":"The current major information aviable is that Joe Biden has dropped out of the election and has been replaced by kamal harris. Donald trump is still representing the republicans. The VP for the democrats is Tim Walz and the VP for the republicans is JD Vance"},
+        {"role":"model", "parts":"Current Vice President Kamala Harris the 2024 Democratic Nominee and did presidential debate on September 10, 2024 against the Republican nominee and former president Donald Trump."},
     ]
 )
 
