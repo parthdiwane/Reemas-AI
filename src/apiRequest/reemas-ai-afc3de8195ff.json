@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reemas-ai",
+  "private_key_id": "afc3de8195ffc06dd8ef01fe3dfed7ce52be5b10",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCRgIZHGD1xhEFM\nYhA0+j0Quuv8JC+h7QWS/YakH9o9FvCcwbM2w7xS28/JEcY8Xs2E2ygm2X1QhbQ/\nSXZ8Dzb1EIkRGf2qQ+MVHBT8LNaYzqiFTSn6yy/APRUH5im/Qn4NbNd3TzfJ1o+U\nR1OZHJBJ3u4SoDuAIxcgHNJKQp4rb3cAqFWvtFUOrOLbKuP6NlCtWVonRgELGp7M\nKqe6hyjt1DOwnxhPZcot8I78MKcKbq8elrorWVYmNVUL9x0i0fHTXnPvvSy+qFC7\nrbmR9hI3rjT/iiBIuL40fAyCop9dYnH4VhTdYKEYOthZMYirnqp4yytjWBqJo1DO\na0F9utatAgMBAAECggEADuX4mdX/EJ0IrKAL5cjLsOda233/DJb+756bBzoluASd\nzYc96Pkg0uEkBQQXZr4UUCq6kUPKw5B1NNe6VJigOXagekpNgX4jBdnSwkF7Fblv\nYvrUNhRRBt+aRC1KkAVob8p5w4MuhLG+EOI+ypo0ogO8H9cdUJEHQKgC1ky88lh3\naHQ9qg9M8kOOyGqnAyRbwDLpE5gaY75MkKTD8ICKgY6bDF8ouNMZgijn8SAXOpHk\n+4C60Caf3TVIRpUhuLkk1vxj1Q9Vc4P+/XJMRtZVU1yOuNmQrn1yAJb2lJg8Zza1\neHsWrIT2ULmCGJv2ezDQjGCuvrYXgN7aXFaBc8DqpwKBgQDJtq/xOdQcItU3B31R\nrZsQ9cqg3iCM9eAAzZPpclnzxzcF5MPfrp31bK+mps+InIlU1mIDdFis/rGO0XM/\nl8AHWolGi3y51rhSkIX2+ACesGPjj2f2qwSHnjDTYVVGegmUZ0XHVPDAwIZRM1u+\nJh2IUURrbPKruNpVWNKBo/QtRwKBgQC4qRILEMNJNV/1EwITGUM5SWVIhEBoDX8f\nDikBCGRVNiLtBRdcG36DxfzAC/qn3+ZmV1LvVTDEK5w1oRoMDXgO0r3WQsT/akav\nxjOdtLw9ijt0sP7CSXJZVvLOVEumUFDioh014Fi54ZBejXcQMfJLNvLqyfpNQ8qO\nf4BhTqHGawKBgHB4mrXIZsqhaX1bgbbPNA1K34a/FCtE1XfdKMIb7qgMxlNU8RqB\nxLWZun8Tt9gWYESbnN8MOn2LLfnSM46b0IjJJI3fLNZ6MSBoUSoZsk7JT4kM5w0U\n4lu0CslyFhhL55eF1dSFOhBfyQTxvA/UNNdTaPD1OIIjeinocseyYW31AoGBAIs+\nIfbqGve3IbZhMO1J3WDzMUZvQ0my86ptOQooU8/VVJy5fBXePZYL0zzVS5sOwGNn\ncYg7CtzBrbba1hNEjMVQsAlCq92VO9wLbpx6zn7xH0gsts22KF2prMlc0vaEFZnv\neGtJ0l3H8t75eVBi+TsyIhZdWzqr5a9yAVJewqolAoGATyuHKM0iIbaKwSv24VoC\npHd6ndbbeAxXVELXNazJcOK206Q/4c3IsBwewvTDOFS1N4zc5ObamHrNPBrUZwnC\niiOnTdDDJcLnxkrdV6rlz8LwE3o02+6DAuk7jki+82TU87z9iqLHiblqKARNRHCv\ns6egaHx8ZYXPApqoK9Muj3o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reemasai@reemas-ai.iam.gserviceaccount.com",
+  "client_id": "101492662130870159368",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reemasai%40reemas-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

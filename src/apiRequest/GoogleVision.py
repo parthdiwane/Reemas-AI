@@ -1,7 +1,7 @@
 from google.cloud import vision
 import os 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "src/apiRequest/creds.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "src/apiRequest/reemas-ai-afc3de8195ff.json"
 def detect_text(path):
     """Detects text in the file."""
     client = vision.ImageAnnotatorClient()
